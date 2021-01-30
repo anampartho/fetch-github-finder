@@ -5,19 +5,19 @@ html {
 
 /* Form */
 form [type="submit"] {
-  background: #c70039;
+  background: #5aa469;
   color: #fff;
   transition: background 0.35s ease-in-out;
 }
 
 form [type="submit"]:hover {
-  background: #1687a7;
+  background: #5aa469;
   color: #fff;
 }
 
 /* Card */
 .card {
-  background: #c70039;
+  background: #5aa469;
 }
 
 .card p,
