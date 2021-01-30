@@ -60,7 +60,7 @@ function showUser(user) {
           ${user.location ? `Lives in <strong>${user.location}</strong>` : ""}${
       user.company
         ? ` and Works at
-          <strong>${user.location}</strong>`
+          <strong>${user.company}</strong>`
         : ""
     }
         </p>
