@@ -5,7 +5,7 @@ html {
 
 /* Form */
 form [type="submit"] {
-  background: #276678;
+  background: #c70039;
   color: #fff;
   transition: background 0.35s ease-in-out;
 }
@@ -13,4 +13,41 @@ form [type="submit"] {
 form [type="submit"]:hover {
   background: #1687a7;
   color: #fff;
+}
+
+/* Card */
+.card {
+  background: #c70039;
+}
+
+.card p,
+.card a,
+.card strong {
+  color: #fff;
+}
+
+.card .card-header {
+  box-shadow: none;
+  padding: 60px 25px 30px;
+}
+
+.card .card-header figure {
+  width: 260px;
+  height: 260px;
+}
+
+.card .card-content {
+  padding: 30px 25px 60px;
+}
+
+.card .card-content .subtitle {
+  margin-top: 0;
+}
+
+.card .card-content .subtitle a {
+  margin-right: 25px;
+}
+
+.card .card-content .subtitle a:last-child {
+  margin-right: 0;
 }
