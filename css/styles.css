@@ -52,6 +52,14 @@ form [type="submit"]:hover {
   margin-right: 0;
 }
 
+.card .card-footer {
+  border-color: rgba(237, 237, 237, 0.3);
+}
+
+.card .card-footer .card-footer-item {
+  border-color: rgba(237, 237, 237, 0.3);
+}
+
 /* Responsive */
 
 @media (max-width: 767px) {
