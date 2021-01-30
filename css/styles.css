@@ -2,3 +2,15 @@ body,
 html {
   background: #f6f5f5;
 }
+
+/* Form */
+form [type="submit"] {
+  background: #276678;
+  color: #fff;
+  transition: background 0.35s ease-in-out;
+}
+
+form [type="submit"]:hover {
+  background: #1687a7;
+  color: #fff;
+}
