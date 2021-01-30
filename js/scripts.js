@@ -42,17 +42,17 @@ function showUser(user) {
           user.name ? `<p class="title has-text-centered">${user.name}</p>` : ""
         }
         <p class="subtitle has-text-centered">
-          <a href="${user.html_url}"><i class="fab fa-github"></i> @${
-      user.login
-    }</a>
+          <a href="${
+            user.html_url
+          }" target="_blank"><i class="fab fa-github"></i> @${user.login}</a>
           ${
             user.twitter_username
-              ? `<a href="https://twitter.com/${user.twitter_username}"><i class="fab fa-twitter"></i> @${user.twitter_username}</a>`
+              ? `<a href="https://twitter.com/${user.twitter_username} target="_blank"><i class="fab fa-twitter"></i> @${user.twitter_username}</a>`
               : ""
           }
           ${
             user.blog !== ""
-              ? `<a href="${user.blog}"><i class="fas fa-globe"></i> ${user.blog}</a>`
+              ? `<a href="${user.blog}" target="_blank"><i class="fas fa-globe"></i> ${user.blog}</a>`
               : ""
           }
         </p>
